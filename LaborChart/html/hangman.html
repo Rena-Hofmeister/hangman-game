@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hangman</title>
+    <link href="../css/index.css" rel="stylesheet">
+    <script src="../js/hangman.js"></script>
+</head>
+
+<body>
+    <p>Simple Hangman Game</p>
+    <div id="hangman-game">
+        <div id="display">
+            <!--Current word being guessed-->
+            <div id="words"></div>
+            <!--Available characters-->
+            <div id="char"></div>
+            <div id="bottom">
+                <input type="button" value="Reset" id="reset" disabled/>
+                <div>
+                    Lives left: <span id="lives"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
